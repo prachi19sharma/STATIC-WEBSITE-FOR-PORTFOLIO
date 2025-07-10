@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prachi - Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav class="container">
+      <h1>Prachi Sharma - Portfolio</h1>
+
+      <!-- Hamburger Icon -->
+      <div class="hamburger" id="hamburger">
+       <span id="hamburger-icon">&#9776;</span>
+      </div>
+
+      <!-- Navigation Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#" data-target="hero">Home</a></li>
+        <li><a href="#" data-target="about">About</a></li>
+        <li><a href="#" data-target="skills">Skills</a></li>
+        <li><a href="#" data-target="projects">Projects</a></li>
+        <li><a href="#" data-target="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+
+<!-- Hero Section -->
+<section id="hero" class="page-section active hero">
+  <div class="hero-container">
+    <h2>Hello, I'm <span class="highlight">Prachi Sharma</span></h2>
+    <p class="tagline">I design and develop modern, responsive websites.</p>
+    <a href="#" class="btn" data-target="projects">View My Work</a>
+  </div>
+
+  <svg class="hero-wave" viewBox="0 0 1440 320" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#ffffff" fill-opacity="1" d="M0,224 C360,320 1080,160 1440,240 L1440,320 L0,320 Z" />
+  </svg>
+</section>
+
+<section id="about" class="page-section about-section">
+
+  <!-- Flex Container for Image + Text -->
+  <div class="about-container">
+
+    <!-- Left Side: Image -->
+    <div class="about-image">
+      <img src="images/prachi.jpg" alt="Prachi Sharma" class="profile-pic">
+    </div>
+
+    <!-- Right Side: Text -->
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+      Hi! I'm Prachi Sharma, an enthusiastic Computer Science undergraduate,<br>
+      I'm currently pursuing B.Tech with a specialization in AIML from Sushant University.<br>
+      I enjoy building modern, responsive, and interactive web applications.
+     </p>
+
+
+      <div class="about-details">
+        <div><strong>Name:</strong> Prachi Sharma</div>
+        <div><strong>Age:</strong> 20</div>
+        <div><strong>Phone:</strong> +91 9650486095</div>
+        <div><strong>Collage:</strong>Sushant University</div>
+        <div><strong>Experience:</strong>Fresher</div>
+        <div><strong>Freelance:</strong> Available</div>
+        <div><strong>Email:</strong> prachisharma191919@gmail.com</div>
+        <div><strong>LinkedIn:</strong> linkedin.com/in/xxxxxx</div>
+      </div>
+      <a href="#" class="contact-btn" data-target="contact">Contact</a>
+    </div>
+
+  </div>
+
+</section>
+
+<section id="skills" class="page-section section">
+  <div class="skills-container">
+    <h2>My Skills</h2>
+    <p>Here are some of the technologies and tools I’m proficient in:</p>
+    
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Java</li>
+      <li>Git & GitHub</li>
+      <li>Python</li>
+      <li>Responsive Design</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<!-- Projects & Certificates Section -->
+<section id="projects" class="page-section">
+  <div class="container">
+    <h2>Projects & Certificates</h2>
+    
+    <div class="project-certificates">
+       <!-- Certificates Column -->
+     <div class="certificate-column">
+  <h3>Certificates</h3>
+  <div class="certificate-grid">
+    <div class="certificate-card">
+      <img src="images/java-certificate.png" alt="Java Certificate" class="certificate-img" />
+      <p>Certificate in Java Programming - Completed online at Coding Blocks</p>
+    </div>
+    <div class="certificate-card">
+      <img src="images/AI-certificate.png" alt="AI Certificate" class="certificate-img" />
+      <p>Certificate in Artificial Intelligence - Completed from IntrnForte Platform</p>
+    </div>
+    <div class="certificate-card">
+      <img src="images/python.png" alt="Python Certificate" class="certificate-img" />
+      <p>Certificate in Python Programming - Completed from InternForte</p>
+    </div>
+
+  </div>
+</div>
+      <!-- Projects Column -->
+      <div class="project-column">
+        <h3>Projects</h3>
+        <div class="project-grid">
+          <div class="project-card">
+            <h4>Personal Portfolio</h4>
+            <p>My own website built using HTML, CSS, and JS to showcase my work.</p>
+          </div>
+          <div class="project-card">
+            <h4>To-Do List App</h4>
+            <p>A simple JavaScript app to add, delete, and mark tasks as complete.</p>
+          </div>
+          <div class="project-card">
+  <h4>Lost and Found Item Tracker</h4>
+  <p>A web-based tool to report, track, and recover lost items using HTML, CSS, and JavaScript.</p>
+</div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="page-section">
+  <div class="container">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+</main>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 Prachi Sharma. All rights reserved.</p>
+</footer>
+
+<!-- Script -->
+<script src="script.js"></script>
+</body>
+</html>
